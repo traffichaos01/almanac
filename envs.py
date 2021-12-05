@@ -1,7 +1,7 @@
 ### Environments ###
 
 import random
-import torch.tensor as tt
+from torch import tensor as tt
 from torch.distributions import Categorical
 from torch.nn.functional import one_hot as one_hot
 import pickle

@@ -1,7 +1,7 @@
 ### Learners ###
 
 import torch
-import torch.tensor as tt
+from torch import tensor as tt
 import random
 from torch import pow as power
 import time
