@@ -763,7 +763,7 @@ class Almanac:
 
         return is_e_t, j, e_t
 
-    def evaluate(self, policy=None, play=False, iterations=10, steps=100, continue_prob=0.9):
+    def evaluate(self, env, policy=None, play=False, iterations=10, steps=100, continue_prob=0.9):
 
         results = []
 

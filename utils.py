@@ -107,7 +107,7 @@ def get_mmg_results(experiment_name, range_repetitions, range_states, range_acti
 
     for t in range_repetitions:    
         for s in range_states:
-            for a in range_actors:
+            for a in range_actions:
                 for l in range_specs:
                 
                     key = (s,a,l,t)         
@@ -178,7 +178,7 @@ def get_mmg_results(experiment_name, range_repetitions, range_states, range_acti
 
     for t in range_repetitions:    
         for s in range_states:
-            for a in range_actors:
+            for a in range_actions:
                 for l in range_specs:
                     
                     key = (s,a,l,t)
@@ -196,7 +196,7 @@ def get_mmg_results(experiment_name, range_repetitions, range_states, range_acti
     averages = dict()
 
     for s in range_states:
-        for a in range_actors:
+        for a in range_actions:
             for l in range_specs:
 
                 key = (s,a,l)
